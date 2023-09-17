@@ -1,0 +1,11 @@
+VAR nn IS 10
+
+FUNCTION Sum{ nn[int] } RETURN int IS
+  IF (nn < 1) + (nn = 1) THEN
+    nn
+  ELSE
+    nn + Sum( nn - 1 )
+  ENDIF
+END FUNCTION
+
+PRINT "Sum from 0 to", nn, "is", Sum(nn);

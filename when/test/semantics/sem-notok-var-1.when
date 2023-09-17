@@ -1,0 +1,5 @@
+
+#% var not defined %#
+
+PRINT "xx", xx;
+

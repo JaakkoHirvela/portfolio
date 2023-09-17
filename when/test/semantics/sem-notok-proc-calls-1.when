@@ -1,0 +1,10 @@
+
+PROCEDURE PROC{ number[int] } RETURN int
+VAR temp IS 0
+IS
+  temp := number / 2;
+  RETURN temp * 11;
+END PROCEDURE
+
+PRINT PROC( 4 );
+PROC( 5 ); #% not ok because the return value %#

@@ -1,0 +1,14 @@
+VAR xx IS -3
+
+PROCEDURE PROC{ }
+VAR xx IS 7
+IS
+  #% if your implementation has one global scope,
+     then this variable is multiple defined.
+     if subroutine scopes are implemented, then
+     this should be ok %#
+  PRINT xx;  
+END PROCEDURE
+
+PROC();
+PRINT xx;

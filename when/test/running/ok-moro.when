@@ -1,0 +1,3 @@
+VAR heinakuu IS 2023-07-01
+
+PRINT "Moro kesäloma!", heinakuu;

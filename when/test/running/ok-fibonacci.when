@@ -1,0 +1,16 @@
+FUNCTION Fibo{ number[int] } RETURN int
+IS
+  IF (number = 0) + (number = 1) THEN
+    1
+  ELSE
+    Fibo( number - 1 ) + Fibo( number - 2 )
+  ENDIF
+END FUNCTION
+
+PRINT "Fibo(0)", Fibo(0);
+PRINT "Fibo(1)", Fibo(1);
+PRINT "Fibo(2)", Fibo(2);
+PRINT "Fibo(3)", Fibo(3);
+PRINT "Fibo(4)", Fibo(4);
+PRINT "Fibo(5)", Fibo(5);
+PRINT "Fibo(12)", Fibo(12);

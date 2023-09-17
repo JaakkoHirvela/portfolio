@@ -1,0 +1,11 @@
+
+PROCEDURE MULTTABLE{ number[int] }
+VAR loc IS 1
+IS
+  WHILE loc < 10 DO
+    PRINT loc, "*", number, "=", loc*number;
+    loc := loc + 1;
+  ENDWHILE;
+END PROCEDURE
+
+MULTTABLE( 6 );

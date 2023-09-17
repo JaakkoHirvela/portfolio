@@ -1,0 +1,21 @@
+
+PROCEDURE POSNEG{ number[int] } IS
+  IF number < 0 THEN
+      PRINT number, "is negative.";
+  ELSE
+      IF number = 0 THEN
+          PRINT number, "is zero.";
+      ELSE
+          IF 0 < number THEN
+              PRINT number, "is positive.";
+          ELSE
+              PRINT "should not happen.";
+          ENDIF;
+      ENDIF;
+  ENDIF;
+END PROCEDURE
+
+POSNEG( -5 );        
+POSNEG( -0 );        
+POSNEG( 0 );        
+POSNEG( 5 );

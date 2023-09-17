@@ -1,0 +1,10 @@
+
+
+PROCEDURE PROC{ number[int] }
+IS
+  PRINT xx;  #% not defined at this point %#
+END PROCEDURE
+
+VAR xx IS 3
+
+PRINT xx;

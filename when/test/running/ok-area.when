@@ -1,0 +1,5 @@
+VAR width IS 2
+VAR height IS 5
+VAR area IS width * height
+
+PRINT width, height, "Area", area;

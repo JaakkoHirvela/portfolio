@@ -1,0 +1,5 @@
+VAR today IS Today()
+VAR next IS today + 7
+VAR prev IS today - 2000
+
+PRINT prev, today, next;

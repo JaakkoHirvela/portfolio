@@ -1,0 +1,8 @@
+
+PROCEDURE PROC{ number[int] }
+IS
+  PRINT number;
+END PROCEDURE
+
+PROC( 7 );
+PRINT number; #% wrong scope if local scopes are implemented %#

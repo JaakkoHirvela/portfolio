@@ -1,0 +1,14 @@
+
+PROCEDURE PROC{ number[int] } RETURN int
+VAR temp IS 0
+IS
+  #% subroutine definition may appear later in the program: %#
+  RETURN Func(3) * 11;
+END PROCEDURE
+
+FUNCTION Func{ second_number[int] } RETURN int
+IS
+  (second_number / 2) * 11
+END FUNCTION
+
+PRINT PROC(2);

@@ -1,0 +1,13 @@
+FUNCTION Func{ second_number[int] } RETURN int
+IS
+  (second_number / 2) * 11
+END FUNCTION
+
+
+FUNCTION Func{} RETURN int
+IS
+ 44
+END FUNCTION
+
+
+PRINT Func(2);

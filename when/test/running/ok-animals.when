@@ -1,0 +1,15 @@
+
+
+
+#% how many legs in total in barn animasl?  %#
+FUNCTION Total_legs{ chickens[int],
+                     cows[int],
+                     spiders[int] }
+RETURN int IS
+  (chickens * 2 ) + (cows * 4) + (spiders * 8)
+END FUNCTION
+
+
+
+PRINT "Total legs:", Total_legs( 4, 2, 1 );
+

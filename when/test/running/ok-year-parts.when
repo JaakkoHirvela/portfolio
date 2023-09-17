@@ -1,0 +1,7 @@
+VAR year IS 2101-01-05
+
+PRINT "IN A.D.", year'year;
+PRINT year'month;
+PRINT year'day;
+PRINT year'weekday;
+PRINT year'weeknum;

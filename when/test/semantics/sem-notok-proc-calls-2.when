@@ -1,0 +1,8 @@
+
+PROCEDURE PROC{ number[int] } 
+IS
+  PRINT "foobar";
+END PROCEDURE
+
+PROC( 5 );
+PRINT PROC( 4 ); #% not ok because the missing return value %#

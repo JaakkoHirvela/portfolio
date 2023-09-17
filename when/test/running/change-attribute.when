@@ -1,0 +1,13 @@
+VAR wappu IS 2023-05-01
+
+PRINT "Before:", wappu;
+wappu.year := 2024;
+wappu.month := 7;
+wappu.day := 12;
+
+PRINT "Middle:", wappu;
+
+wappu := 2020-01-10;
+
+PRINT "After:", wappu;
+

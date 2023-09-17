@@ -1,0 +1,8 @@
+
+#% double defined %#
+
+VAR xx IS -5
+VAR xx IS 5
+
+PRINT "xx", xx;
+

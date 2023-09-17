@@ -1,0 +1,10 @@
+VAR aa IS 11
+VAR bb IS 22
+VAR temp IS 0
+
+PRINT "Before:", aa, bb;
+temp := bb;
+bb := aa;
+aa := temp;
+PRINT "After:", aa, bb;
+

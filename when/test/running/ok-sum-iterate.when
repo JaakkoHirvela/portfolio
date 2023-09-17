@@ -1,0 +1,11 @@
+VAR nn IS 10
+VAR count IS 0
+VAR sum IS 0
+
+#% <= operator as ( < and = ) %#
+WHILE (count < nn) + (count = nn) DO
+  sum := sum + count;
+  count := count + 1;
+ENDWHILE;
+
+PRINT "Sum from 0 to", nn, "is", sum;

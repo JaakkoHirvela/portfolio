@@ -1,0 +1,7 @@
+VAR num IS -10
+
+WHILE num < 11 DO
+    PRINT num;
+    num := num + 1;
+ENDWHILE;
+

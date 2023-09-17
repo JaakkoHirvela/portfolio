@@ -1,0 +1,10 @@
+
+PROCEDURE NUMPRINT{ number[int] } 
+IS
+  IF number < 51 THEN
+    PRINT number;
+    NUMPRINT( number + 1 );
+  ENDIF;
+END PROCEDURE
+
+NUMPRINT( 1 );

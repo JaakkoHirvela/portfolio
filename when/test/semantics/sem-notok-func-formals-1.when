@@ -1,0 +1,7 @@
+
+FUNCTION Func{ second_number[int] } RETURN int
+IS
+  3
+END FUNCTION
+
+PRINT Func(); #% wrong number of args %#

@@ -1,0 +1,9 @@
+VAR wappu IS 2024-05-01
+VAR diff  IS wappu - Today()
+
+IF diff = 0 THEN
+    PRINT "WAPPU!!!";
+ELSE
+    PRINT diff, "days until wappu";
+ENDIF;
+
