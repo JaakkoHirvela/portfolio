@@ -47,4 +47,4 @@ Made as part of a Tampere University course called Principles of Programming Lan
 - This is where the generated syntax tree is evaluated.
 
 
-Functions are not implemented except a built-in function Today().
+Runnable functions are not implemented except a built-in function Today().
