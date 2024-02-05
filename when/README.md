@@ -50,5 +50,3 @@ Made as part of a Tampere University course called Principles of Programming Lan
 
 
 Runnable functions are not implemented except a built-in function Today() which returns today's date. Control structures, variables, basic math and printing is so actual programs can be developed with this though.
-
-The language tries to follow a functional paradigm, so for example variables cannot be reassigned and functions cannot have side-effects (except printing).
