@@ -33,18 +33,22 @@ Made as part of a Tampere University course called Principles of Programming Lan
 
 # How?
 
-1. Lexical Analysis (lexer.py):
+**1. Lexical Analysis (lexer.py):**
 - The source code is broken down into tokens, which are the smallest units of meaning, by a lexical analyzer (lexer.py).
 
-2. Syntax Analysis (main.py):
-- The parser analyzes the structure of the source code based on the grammar of the programming language. It builds a syntax tree or an abstract syntax tree (AST) representing the hierarchical structure of the code.
-- 
 
-3. Semantic Analysis (simple_semantics_check.py + symtbl_semantics_check.py):
+**2. Syntax Analysis (main.py):**
+- The parser analyzes the structure of the source code based on the grammar of the programming language. It builds a syntax tree or an abstract syntax tree (AST) representing the hierarchical structure of the code.
+
+  
+**3. Semantic Analysis (simple_semantics_check.py + symtbl_semantics_check.py):**
 - The compiler checks the code for semantic errors and ensures that it adheres to the language's rules and constraints. This step involves type checking, scope resolution, and other analyses that go beyond syntax.
 
-4. Interpretation (semantics_run.py):
+
+**4. Interpretation (semantics_run.py):**
 - This is where the generated syntax tree is evaluated.
 
 
-Runnable functions are not implemented except a built-in function Today().
+Runnable functions are not implemented except a built-in function Today() which returns today's date. Control structures, variables, basic math and printing is so actual programs can be developed with this though.
+
+The language tries to follow a functional paradigm, so for example variables cannot be reassigned and functions cannot have side-effects (except printing).
